@@ -9,11 +9,11 @@ import { QRCodeComponent } from 'angularx-qrcode';
 
 @NgModule({
   imports: [
-    QRCodeComponent,
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    QRCodeComponent
   ],
   declarations: [HomePage]
 })
