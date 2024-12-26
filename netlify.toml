@@ -1,0 +1,13 @@
+[build]
+  # Comando para construir tu proyecto
+  command = "npm install && npm run build:netlify"
+  # Directorio que se publicará (donde está el resultado de tu build)
+  publish = "www"
+
+[build.environment]
+  # Versión de Node.js requerida para tu proyecto
+  NODE_VERSION = "16"
+
+[plugins]
+  # Ejemplo de cómo incluir un plugin de Netlify si es necesario
+  package = "@netlify/angular-runtime"
