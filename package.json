@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "build:netlify": "npm install -g @ionic/cli && ionic build --prod"
+    "build:netlify": "npm install -g @ionic/cli && npm install angularx-qrcode --save && ionic build --prod"
   },
   "private": true,
   "dependencies": {
