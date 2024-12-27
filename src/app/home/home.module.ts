@@ -15,6 +15,7 @@ import { QRCodeComponent } from 'angularx-qrcode';
     HomePageRoutingModule,
     QRCodeComponent
   ],
-  declarations: [HomePage]
+  declarations: [HomePage],
+  providers: [QRCodeComponent]
 })
 export class HomePageModule {}
