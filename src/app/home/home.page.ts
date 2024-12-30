@@ -8,7 +8,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  text: any;
+  text: any = "";
+  loaded: boolean = false;
+
+  ionViewWillEnter(){
+   this.loaded = true;
+  }
 
   constructor() {}
 
