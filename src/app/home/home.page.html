@@ -1,22 +1,2 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Generador de QR
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-card style="margin: 0 auto 0 auto; margin-top: 5%; width: fit-content; text-align: center;">
-    <ion-card-title color="primary">
-      <h1>Generar QR</h1>
-    </ion-card-title>
-    <ion-card-content>
-      <input type="text" [(ngModel)]="text" placeholder="Inserte link">
-    </ion-card-content>
-  </ion-card>
-  <br><br>
-  <ion-card *ngIf="text" style="margin: 0 auto 0 auto; padding: 10px; width: fit-content; text-align: center;">   
-      <qrcode [qrdata]="text" [width]="400"></qrcode>
-  </ion-card>
-</ion-content>
+<input type="text" [(ngModel)]="text" placeholder="Inserte link">
+<qrcode [qrdata]="text" [width]="400"></qrcode>

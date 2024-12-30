@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Qr Generator</string>
+    <string name="title_activity_main">Qr Generator</string>
+    <string name="package_name">com.QRGEN.app</string>
+    <string name="custom_url_scheme">com.QRGEN.app</string>
+</resources>
